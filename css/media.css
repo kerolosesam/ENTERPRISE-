@@ -1,0 +1,132 @@
+/* mobile and tablets */
+@media (max-width: 767px)
+{
+    .navbar-brand{padding: 10px 17px;}
+    .navbar-toggle{margin-top: 20px}
+    .navbar-default .navbar-collapse{background: #42494f; border: none}
+    .nav > li{display: inline-block}
+    .navbar-default .navbar-form{background: rgba(255,255,255,0.3); border: none; border-radius: 4px; 
+        width: 90%; margin: 0 0 0 11px;}
+    .sign-up > div, .sign-in > div{left: 10px; height: 261px; z-index: 1; top: 74px}
+    .navbar{overflow: hidden;}
+    .navbar-form .form-control{height: 15px}
+    .header{height: 573px}
+    .header .subscribe-form {float: none; width: 100%; margin-top: 160px}
+    .header .subscribe-form form input{width: 53%; padding: 0; height: 44px; font-size: 14px; padding: 0 4px;}
+    .header .contact-header{float: none; width: 100%; margin-top: 35px}
+    .heading h2{font-size: 16px; text-align: left}
+    .enterprise{background: #FFF}
+    .enterprise .item .info{color: #838282; width: 67%; margin-left: 7%;}
+    .enterprise .item .info h4{font-weight: normal; letter-spacing: 1.7px; font-size: 15px;}
+    .enterprise .item .info p{line-height: 2.1; font-size: 14px;}
+    .enterprise .item i{padding: 5px 21px}
+    .our-work .snip{margin: 10px 0px; min-height: 216px;}
+    .recognitions:before{transform: none; width: 94%; left: 3%}
+    .recognitions:after{transform: none; width: 94%; left: 3%}
+    .recognitions .recognitions-list{left: 0; padding: 0px 9px;}
+    .recognitions .recognitions-list li:nth-of-type(1), .recognitions .recognitions-list li:nth-of-type(3){margin-left: 0}
+    .recognitions .recognitions-list li:nth-of-type(2){margin-left: 0}
+    .recognitions .recognitions-list li:nth-of-type(4){margin-right: 0}
+    .buy button{margin-left: 0; margin-bottom: 40px;}
+    .testimoinals{background: #FFF}
+    .screen-goes img{width: 80%; margin: auto;}
+    .screen-goes .diagram-box .diagram{margin: auto; padding: 18px 5px; width: 100%}
+    .testimoinals .client{height: 324px; margin: auto; margin-bottom: 20px}
+    .screen-goes .diagram-box{padding: 0}
+    .our-team{background: #FFF}
+    .our-team .team-member{margin-bottom: 28px;}
+    .pricing-table{background: #FFF}
+    .pricing-table .table{margin: auto; margin-bottom: 34px}
+    .blog{background: #FFF}
+    .blog .featured{height: auto}
+    .blog .featured .image{width: 100%; position: relative}
+    .blog .featured .body{width: 100%; padding-right: 30px; padding-left: 35px; padding-top: 27.5px}
+    .blog .featured .body h2{font-size: 16px; line-height: 1.7}
+    .blog .featured .body .post-meta span{font-size: 9px; letter-spacing: 2.2px}
+    .blog .featured:hover .body{transform: translateX(0)}
+    .blog .featured:hover .image:before{background: rgba(29,32,37,0.475)}
+    .blog .news{padding: 15px 0px 0 35px;}
+    .blog .news ul{padding-right: 39px}
+    .partner{background: #FFF}
+    .footer .about p{line-height: 1.2; font-size: 13px}
+    .footer .subscribe-form input{width: 53%}
+    .footer .copyright{text-align: center; margin-bottom: 25px;}
+    .footer .footer-end{margin-top: 55px}
+    .section-padding-extra{padding-bottom: 0}
+}
+
+/* small screeh */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .navbar-brand{padding: 13px 23px;}
+    .navbar ul {padding: 20px 0;}
+    .navbar-default .navbar-form{margin: 23px 60px}
+    .navbar-default .navbar-form{width: 33%;margin-left: 23px;margin-right: 0}
+    .navbar-default .navbar-nav > li{margin-left: 7px;}
+    .sign-up > div, .sign-in > div{top: 80px; left: 110px}
+    .header{height: 578px;}
+    .header .subscribe-form{width: 60%; margin-top: 361px;}
+    .header .subscribe-form form input{width: 60%}
+    .header .contact-header{width: 40%; margin-top: 164px;}
+    .enterprise{background: #FFF}
+    .enterprise .item{color: #838282}
+    .enterprise .item .info{width: 62%; margin-left: 7%}
+    .enterprise .item .info h4{font-size: 15px; letter-spacing: normal}
+    .enterprise .item .info p{font-size: 13px}
+    .recognitions:before{left: 12%; width: 75%}
+    .recognitions:after{left: 12%; width: 75%}
+    .recognitions .recognitions-list{left: 133px; padding-right: 236px}
+    .buy button{margin-left: 0; padding: 12px 23px}
+    .testimoinals{background: #FFF}
+    .testimoinals .client{margin: 0}
+    .testimoinals .testimoinals-slider .owl-nav{margin-right: 26px}
+    .screen-goes img{margin-left: 23px}
+    .our-team{background: #FFF}
+    .our-team .team-member{margin-bottom: 15px}
+    .pricing-table{background: #FFF}
+    .pricing-table .table{width: 100%}
+    .blog{background: #FFF}
+    .blog .featured{height: auto}
+    .blog .featured .image{width: 100%; position: relative}
+    .blog .featured .body{width: 100%; padding-right: 30px; padding-left: 35px; padding-top: 27.5px}
+    .blog .featured .body h2{font-size: 16px; line-height: 1.7}
+    .blog .featured .body .post-meta span{font-size: 9px; letter-spacing: 2.2px}
+    .blog .featured .body .post-meta ul{margin-bottom: 10px}
+    .blog .featured:hover .body{transform: translateX(0)}
+    .blog .featured:hover .image:before{background: rgba(29,32,37,0.475)}
+    .blog .news{padding: 15px 0px 0 35px}
+    .blog .news ul{padding-right: 39px}
+    .copyright {text-align: center}
+    .footer .footer-end{margin-top: 65px}
+    .heading h2{text-align: left}
+}
+
+/* mediue screen */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    .header{height: 553px}
+    .navbar-default .navbar-form{width: 33%; margin-left: 23px}
+    .header .subscribe-form{width: 52%; margin-top: 348px;}
+    .header .subscribe-form form input{width: 67%}
+    .header .contact-header{width: 48%; margin-top: 167px}
+    .header .contact-header h1{line-height: 1.7}
+    .enterprise .item .info{width: 67%;}
+    .recognitions:before{left: 20%; width: 60%}
+    .recognitions:after{left: 20%; width: 60%}
+    .recognitions .recognitions-list{left: 0; padding-right: 68px}
+    .buy button{padding: 12px 28px}
+    .screen-goes img{margin: auto}
+    .blog .featured .body{padding-right: 6px; padding-left: 45px;}
+    .blog .featured .body h2{font-size: 16px}
+    .blog .news{padding: 29px 17px 35px 60px;}
+    .blog .news ul{padding-right: 0}
+    .footer .subscribe-form input{width: 64%}
+    .footer .footer-social li{margin-left: 31px}
+}
+
+/* large screen */
+@media (min-width: 1200px)
+{
+    .header{height: 662px}
+    .navbar-default .navbar-form{width: 36%}
+}
